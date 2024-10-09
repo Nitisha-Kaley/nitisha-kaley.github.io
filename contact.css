@@ -1,7 +1,7 @@
 body{
     background-color: #191919;
     align-items: center;
-    min-height: 100vh;
+    min-height: fit-content;
     margin: 0;
   padding: 0;
   width: 100%;
@@ -55,6 +55,7 @@ color: #FFFFFF;
         justify-content: center; /* Centers horizontally */
         align-items: center; /* Centers vertically */
         height: 80vh; /* Full viewport height to ensure vertical centering */
+        padding: 300px;
     
 }
 .card {
@@ -297,6 +298,14 @@ a {
 
 
   @media screen and (max-width: 991px) {
+    .Main{
+    
+      display: flex;
+      justify-content: center; /* Centers horizontally */
+      align-items: center; /* Centers vertically */
+      height: 40vh; /* Full viewport height to ensure vertical centering */
+  
+}
     .container {
         padding: 20px;
         max-width: 100%;
@@ -339,6 +348,14 @@ a {
   
 /* Mobile Screens (480px and below) */
 @media screen and (max-width: 640px) {
+  .Main{
+    
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 40vh; /* Full viewport height to ensure vertical centering */
+
+}
   .container {
       padding: 40px;
       max-width: 100%;

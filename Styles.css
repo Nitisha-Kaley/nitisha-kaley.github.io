@@ -438,7 +438,7 @@ display: inline;
   .BG{
     background-image: url("bg.png");
     padding: 40px;
-    padding-top: 200px;
+    padding-top: 150px;
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -580,16 +580,82 @@ padding: 30px;
 }
 
 @media (max-width: 640px) {
+  .BG{
+    background-image: url("bg.png");
+    padding: 40px;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    width: 100%;
+}
   .Title{
     font-family: Ogg;
-    font-size: 30px;
+    font-size: 40px;
   }
   .Subtitle{
     font-family: Helveticathin;
-    font-size: 14px;
+    font-size: 16px;
     display:inline-block;
     vertical-align: middle;
       
+  }
+  .icons{
+    display: inline-flex;
+    justify-content: flex-end;
+    gap: 10px;
+    float: right;
+    margin-bottom: 10px;
+  }
+  .behance{
+    height: 8vw;
+    width: 8vw;
+    display: inline;
+  }
+  .linkedin{
+    height: 8vw;
+    width: 8vw;
+    display: inline;
+  }
+
+  .subtext{
+    text-align: right;
+    padding-top: 10px;
+    font-family: Ogg;
+    font-size: 16px;
+  }
+
+  .email-container {
+    max-width: fit-content;
+    white-space: normal;
+    padding: 0 20px;
+  }
+
+  .email-label {
+    align-self: stretch;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 20px;
+    font-weight: 300;
+    justify-content: flex-start;
+    margin: auto 0;
+  }
+  
+  .email-icon {
+    aspect-ratio: 1.38;
+    object-fit: contain;
+    object-position: center;
+    width: 30px;
+    align-self: stretch;
+    margin: auto 0;
+  }
+  
+  .email-address {
+    font-size: 20px;
+    font-weight: 400;
+    align-self: stretch;
+    margin: auto 0;
   }
 
   .arrow-icon {
