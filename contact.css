@@ -1,0 +1,384 @@
+body{
+    background-color: #191919;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  padding: 0;
+  width: 100%;
+}
+@font-face {
+    font-family: Ogg;
+    src: url(Ogg/Ogg-Roman.otf);
+  }
+  @font-face {
+    font-family: Helveticathin;
+    src: url(Helvetica/HelveticaNeueThin.otf);
+  }
+header{
+font-family: Helveticathin;
+color: #FFFFFF;
+  }
+  /*NAVBAR START*/
+  .navbar{
+    background-color: #191919;
+    font-family: Helveticathin;
+    letter-spacing: 1px;
+    color: #fff;
+    border-bottom: 1px solid #ffffff7a;
+  }
+  .navcont{
+    background-color: #191919;
+  }
+  .text-white{
+    height: 2vh;
+    display: flex;
+  }
+  .star{
+    
+    margin-right: 5px;
+  }
+  .textpor{
+      
+    align-items: center;
+  }
+  .process{
+    align-items: center;
+    padding: 60px;
+  }
+  /*NAVBAR END*/
+
+/* From Uiverse.io by vinodjangid07 */ 
+
+.Main{
+    
+        display: flex;
+        justify-content: center; /* Centers horizontally */
+        align-items: center; /* Centers vertically */
+        height: 80vh; /* Full viewport height to ensure vertical centering */
+    
+}
+.card {
+    width: fit-content;
+    height: fit-content;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+    border-radius: 20px;
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 15vw;
+    height: 15vw;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+    border-radius: 10px;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #0370AE;
+    transition-duration: .3s;
+    border-radius: 10px;
+  }
+  /* twitter*/
+  .containerTwo:hover {
+    background-color: #D0493E;
+    transition-duration: .3s;
+    border-radius: 10px;
+  }
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #1765F7;
+    transition-duration: .3s;
+    border-radius: 10px;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #F70794;
+    transition-duration: .3s;
+    border-radius: 10px;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 7vw;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+  
+  @keyframes slide-in-top {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+  
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+  background-color: white;
+  padding: 40px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 100%;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.context{
+  float: left;
+  font-family: Ogg;
+  font-size: 36px;
+  margin-bottom: 20px;
+  display: inline-flex;
+}
+
+.contact-info {
+  float: right;
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  padding: 10px 20px;
+  border-radius: 50px;
+  font-size: 16px;
+  margin: 10px;
+  flex-grow: 1;
+  justify-content: center;
+  min-width: 250px;
+}
+
+.contact-item .icon {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.ortext-container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.horizontal-line {
+  flex-grow: 1;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.218);
+  margin: 0 10px;
+}
+
+.ortext {
+  font-family: Helveticathin;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+
+.contact-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+  outline: none;
+  
+  
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  border: 1px solid black;
+  background-color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border-radius: 10px;
+}
+
+button span {
+  margin-left: 10px;
+  transition: transform 0.3s;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+button:hover span {
+  transform: translateX(5px);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+.ortext {
+    font-size: 22px;
+    margin: 0 8px;
+}
+  .contact-item {
+      font-size: 14px;
+  }
+  .horizontal-line {
+    margin: 0 6px;
+}
+
+.ortext {
+    font-size: 18px;
+    margin: 0 6px;
+}
+  input, textarea {
+      font-size: 14px;
+  }
+
+
+  @media screen and (max-width: 991px) {
+    .container {
+        padding: 20px;
+        max-width: 100%;
+        min-width: 100%;
+    }
+  
+    h1 {
+        font-size: 28px;
+    }
+  
+    .contact-info {
+        float: left;
+        width: 100%;
+    }
+  
+    .contact-item {
+        padding: 10px 10px;
+        font-size: 1.7vw;
+    }
+  
+    .form-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+  
+    input, textarea {
+        font-size: 14px;
+        padding-bottom: 10px;
+    }
+  
+    button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+  
+    button span {
+        margin-left: 8px;
+    }
+  }
+  
+/* Mobile Screens (480px and below) */
+@media screen and (max-width: 640px) {
+  .container {
+      padding: 40px;
+      max-width: 100%;
+      min-width: 100%;
+  }
+
+  h1 {
+      font-size: 28px;
+  }
+
+  .contact-info {
+      float: left;
+      width: 100%;
+  }
+
+  .contact-item {
+      padding: 20px 20px;
+      font-size: 16px;
+  }
+
+  .form-row {
+      flex-direction: column;
+      gap: 20px;
+  }
+
+  input, textarea {
+      font-size: 14px;
+      padding-bottom: 16px;
+      
+  }
+
+  button {
+      font-size: 16px;
+      padding: 10px 20px;
+      
+  }
+
+  button span {
+      margin-left: 8px;
+  }
+}
+
+

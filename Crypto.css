@@ -1,0 +1,121 @@
+@font-face {
+    font-family: Ogg;
+    src: url(Ogg/Ogg-Roman.otf);
+  }
+  @font-face {
+    font-family: Helveticathin;
+    src: url(Helvetica/HelveticaNeueThin.otf);
+  }
+  
+  body{
+          background-color: #191919;
+  }
+  
+  /*NAVBAR CSS*/
+  
+         .navbar{
+          background-color: #191919;
+          font-family: Helveticathin;
+          letter-spacing: 1px;
+          color: #fff;
+        }
+        .navcont{
+          background-color: #191919;
+        }
+        .text-white{
+          height: 2vh;
+          display: flex;
+        }
+        .star{
+          
+          margin-right: 5px;
+        }
+        .textpor{
+        
+          align-items: center;
+        }
+        .process{
+          align-items: center;
+          padding: 60px;
+        }
+  
+        /*NAVBAR CSS END*/
+  
+        
+        .header-container {
+          background-color: #fff;
+          display: flex;
+          min-height: 164px;
+          width: 100%;
+          flex-direction: column;
+          justify-content: center;
+          padding: 44px 75px;
+        }
+      
+        .header-content {
+          display: flex;
+          max-width: 100%;
+          width: 1755px;
+          align-items: center;
+          gap: 40px 100px;
+          justify-content: space-between;
+          flex-wrap: wrap;
+        }
+      
+        .app-title {
+          align-self: stretch;
+          width: 317px;
+          margin: auto 0;
+          font: 70px Ogg, sans-serif;
+        }
+      
+        .app-description {
+          align-self: stretch;
+          margin: auto 0;
+          font: 40px Helvetica Neue, sans-serif;
+        }
+      
+        @media (max-width: 991px) {
+          .header-container {
+            max-width: 100%;
+            padding: 0 20px;
+          }
+      
+          .header-content {
+            gap: 30px;
+          }
+      
+          .app-title {
+            font-size: 40px;
+            font-weight: 600;
+          }
+      
+          .app-description {
+            max-width: 100%;
+            font-size: 30px;
+          }
+        }
+      
+        @media (max-width: 640px) {
+          .header-content {
+            gap: 20px;
+          }
+      
+          .app-description {
+            font-size: 20px;
+          }
+        }
+  
+ 
+ .pdf {
+        width: 100%;
+        aspect-ratio: 4 / 3;
+    }
+
+    .img{
+       
+        background-repeat: no-repeat;
+        background-size: auto;
+        width: 100%;
+        height: auto;
+    }
